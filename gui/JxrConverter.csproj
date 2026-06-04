@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>JxrConverter</AssemblyName>
+    <RootNamespace>JxrConverter</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\release_bin\jxr_to_png.exe">
+      <LogicalName>jxr_to_png.exe</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
