@@ -9,10 +9,10 @@ Builds into a portable, single-file executable
 
 ## How to Build the Portable EXE
 
-1. Ensure the compiled C++ converter engine `jxr_to_png.exe` exists in the `release_bin` directory (at the repository root):
+1. Ensure the compiled C++ converter engine `jxr_to_png.exe` exists in the `jxr_to_png_` directory (at the repository root):
    ```
    jxr_to_png/
-   ├── release_bin/
+   ├── jxr_to_png_/
    │   └── jxr_to_png.exe
    ├── gui/
    ```

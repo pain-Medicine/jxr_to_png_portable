@@ -1,6 +1,6 @@
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $repoRoot = Split-Path -Parent $scriptDir
-$cppExe = Join-Path $repoRoot "release_bin\jxr_to_png.exe"
+$cppExe = Join-Path $repoRoot "jxr_to_png_\jxr_to_png.exe"
 $distDir = Join-Path $repoRoot "dist"
 
 if (-not (Test-Path $cppExe)) {

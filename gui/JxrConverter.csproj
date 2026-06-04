@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="..\release_bin\jxr_to_png.exe">
+    <EmbeddedResource Include="..\jxr_to_png_\jxr_to_png.exe">
       <LogicalName>jxr_to_png.exe</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
